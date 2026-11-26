@@ -8,9 +8,9 @@ const LINKS = {
   patrocinio: "",   // formulário ou e-mail de patrocínio; vazio = usa o e-mail abaixo
   email: "",        // ex.: "contato@osintecachaca.com.br"
 };
-// Destino dos formulários (FormSubmit). Depois da ativação, troque o e-mail pelo código aleatório
-// que o FormSubmit envia (ex.: "a1b2c3d4e5...") para o endereço não aparecer no código do site.
-const FORM_DESTINO = "osmosint1@gmail.com";
+// Destino dos formulários (FormSubmit, ativado em 26/11/2026): código aleatório da caixa da organização,
+// para o endereço de e-mail não aparecer no código do site.
+const FORM_DESTINO = "c9de17376398da4020c1bc30fc92c231";
 const RESERVA ="https://www.instagram.com/osintecachaca"; // usado quando um link está vazio
 /* ========================================================== */
 
