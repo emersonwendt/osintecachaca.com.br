@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Osint &amp; Cachaça · Comunidade brasileira de OSINT</title>
+<meta name="description" content="Encontros presenciais de inteligência de fontes abertas (OSINT) pelo Brasil: charlas de 15 minutos, networking e uma boa cachaça. Mais de 900 pessoas inscritas desde 2023.">
+<meta name="theme-color" content="#3B2616">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Osint &amp; Cachaça · A comunidade de OSINT no balcão">
+<meta property="og:description" content="Encontros presenciais de OSINT pelo Brasil, com charlas curtas, networking e cachaça brasileira.">
+<meta property="og:image" content="https://osintecachaca.com.br/assets/img/og-image.jpg">
+<meta property="og:url" content="https://osintecachaca.com.br/">
+<link rel="canonical" href="https://osintecachaca.com.br/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css?v=20261126">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Osint & Cachaça",
+  "description": "Comunidade brasileira de inteligência de fontes abertas (OSINT) com encontros presenciais.",
+  "url": "https://osintecachaca.com.br/",
+  "logo": "https://osintecachaca.com.br/assets/img/logo-nova-512.png",
+  "sameAs": ["https://www.instagram.com/osintecachaca", "https://www.linkedin.com/showcase/osintecacha%C3%A7a/"],
+  "parentOrganization": {"@type": "Organization", "name": "Polímata Inc."}
+}
+</script>
+</head>
+<body>
+
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topo" id="topo">
+  <div class="topo__in">
+    <a class="marca" href="#topo" aria-label="Osint &amp; Cachaça, início">
+      <img src="assets/img/logo-nova-selo-160.png" alt="" width="48" height="48">
+      <span>Osint &amp; Cachaça</span>
+    </a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" class="menu" aria-label="Seções">
+      <a href="#sobre">O encontro</a>
+      <a href="#edicoes">Edições</a>
+      <a href="#apoios">Apoios</a>
+      <a href="#tino">Tino</a>
+      <a href="#palestre">Palestre</a>
+      <a href="#apoie">Apoie</a>
+      <a href="#redes">Redes</a>
+      <a href="#conexao">Conexões</a>
+      <a href="#cursos">Cursos</a>
+      <a class="btn btn--ouro btn--peq" data-link="comunidade" href="#contato">Entrar na comunidade</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- HERO -->
+  <section class="hero escuro">
+    <div class="hero__in">
+      <div class="hero__txt">
+        <img class="hero__selo" src="assets/img/logo-nova-selo-320.png" alt="Logomarca Osint &amp; Cachaça: capivara com chapéu de detetive segurando um copo de cachaça" width="320" height="320">
+        <p class="kicker">Comunidade brasileira de OSINT</p>
+        <h1>A comunidade de OSINT que se encontra no balcão</h1>
+        <p class="lead">Encontros presenciais de inteligência de fontes abertas, com charlas curtas, conversa franca e uma boa cachaça brasileira. Desde 2023, em todo o país.</p>
+        <div class="acoes">
+          <a class="btn btn--ouro" data-link="comunidade" href="#contato">Quero ir ao próximo encontro</a>
+          <a class="btn btn--linha" href="#apoie">Quero apoiar</a>
+        </div>
+        <p class="assinatura">Fontes abertas. Mentes abertas. Impacto real.</p>
+      </div>
+      <figure class="hero__tino">
+        <img src="assets/img/tino-web.webp" alt="Tino, a capivara detetive mascote do Osint &amp; Cachaça, de sobretudo, chapéu e lupa" width="675" height="1200">
+        <figcaption>Tino, nosso mascote</figcaption>
+      </figure>
+    </div>
+    <div class="skyline skyline--creme" aria-hidden="true"></div>
+  </section>
+
+  <!-- NÚMEROS -->
+  <section class="numeros" aria-label="A comunidade em números">
+    <div class="wrap numeros__grid">
+      <div><strong>900+</strong><span>pessoas inscritas</span></div>
+      <div><strong>19</strong><span>encontros desde 2023</span></div>
+      <div><strong>12</strong><span>cidades em 10 estados e no DF</span></div>
+      <div><strong>99%</strong><span>recomendariam a colegas</span></div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sec" id="sobre">
+    <div class="wrap dois">
+      <div>
+        <p class="kicker">O encontro</p>
+        <h2>Um happy hour com método</h2>
+        <p>Especialistas e entusiastas de OSINT, investigação, inteligência e segurança se reúnem num bar para trocar experiências num ambiente de confiança. Sem palco distante, sem crachá de hierarquia: policiais, promotores, analistas de empresas, pesquisadores e estudantes dividem a mesma mesa.</p>
+        <ol class="passos">
+          <li><b>Charlas de 15 minutos</b><span>Casos reais, ferramentas e técnicas, com curadoria e sem pitch de vendas.</span></li>
+          <li><b>Shout a round</b><span>Uma rodada oferecida por um apoiador abre cada bloco de conversa.</span></li>
+          <li><b>Networking de verdade</b><span>A melhor parte costuma acontecer depois da última charla.</span></li>
+        </ol>
+      </div>
+      <figure class="foto">
+        <img src="assets/img/foto-emerson-brasilia.jpg" alt="Emerson Wendt fala ao microfone diante do telão Osint &amp; Cachaça em Brasília, com uma garrafa de cachaça e copinhos na mesa" loading="lazy" width="1200" height="1003">
+        <figcaption>Emerson Wendt na edição de Brasília (DF). Formato inspirado no OSINT and Beers.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- NOITE -->
+  <section class="sec escuro" aria-labelledby="noite-t">
+    <div class="wrap">
+      <p class="kicker">Como é uma noite</p>
+      <h2 id="noite-t">Do primeiro brinde à última conversa</h2>
+      <ol class="agenda">
+        <li><time>18h</time><b>Recepção</b><span>Chegada, credenciamento e primeiras conversas.</span></li>
+        <li><time>19h</time><b>Abertura</b><span>Boas-vindas e apresentação de quem apoia a edição.</span></li>
+        <li><time>19h15</time><b>Charlas</b><span>Três falas de 15 minutos, cada uma aberta por uma rodada.</span></li>
+        <li><time>20h45</time><b>Sorteio</b><span>Brindes dos apoiadores e fotos da turma.</span></li>
+        <li><time>21h</time><b>Networking</b><span>Conversa livre, até a última dose.</span></li>
+      </ol>
+      <p class="nota">Horários de referência; cada cidade ajusta ao local. Evento para maiores de 18 anos.</p>
+    </div>
+  </section>
+
+  <!-- EDIÇÕES -->
+  <section class="sec" id="edicoes">
+    <div class="wrap">
+      <p class="kicker">Edições</p>
+      <h2>De Macapá a Porto Alegre</h2>
+      <p class="intro">A capivara já brindou em boa parte do país. Quer um encontro na sua cidade? <a href="#contato">Fale com a gente</a>.</p>
+      <div class="linha-tempo">
+        <div class="ano"><h3>2023</h3><ul><li>Canoas (RS) · 1º encontro</li></ul></div>
+        <div class="ano"><h3>2024</h3><ul><li>Encontros II a IV e CTF</li><li>Goiânia (GO)</li><li>Brasília (DF)</li></ul></div>
+        <div class="ano ano--largo"><h3>2025</h3><ul>
+          <li>Porto Alegre · DICB</li><li>Macapá (AP)</li><li>Belo Horizonte (MG)</li><li>Florianópolis (SC)</li>
+          <li>Recife (PE)</li><li>Brasília (DF)</li><li>Porto Alegre (RS)</li><li>Rio de Janeiro (RJ)</li>
+          <li>Natal (RN)</li><li>São Paulo (SP)</li><li>Campo Grande (MS)</li></ul></div>
+        <div class="ano"><h3>2026</h3><ul><li>Porto Alegre · DICB</li><li>São Paulo · BSides SP</li><li>São Paulo · Osintomático e OsintomátiCOPS</li><li>Florianópolis (SC)</li></ul></div>
+      </div>
+      <div class="proxima">
+        <div>
+          <p class="kicker">Próximas edições</p>
+          <h3>A agenda de 2027 sai primeiro na Comunidade</h3>
+          <p>Datas, locais e inscrições saem antes na Comunidade no WhatsApp, no Instagram e no LinkedIn.</p>
+        </div>
+        <a class="btn btn--caramelo" data-link="comunidade" href="#contato">Entrar na Comunidade</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- APOIOS A EVENTOS -->
+  <section class="sec sec--clara" id="apoios">
+    <div class="wrap">
+      <p class="kicker">Na estrada com a comunidade</p>
+      <h2>Eventos que apoiamos</h2>
+      <p class="intro">O Osint &amp; Cachaça também vai aonde a comunidade está: monta trilhas de investigação digital, faz edições especiais e divulga conferências de segurança e OSINT pelo país.</p>
+      <ol class="apoios">
+        <li><time>nov 2026</time><b>BSides Brasília</b><span>Brasília (DF) · Digital Investigation &amp; OSINT Village</span><a href="https://www.instagram.com/p/Dfs7lYLgF7O/" target="_blank" rel="noopener">Ver no Instagram</a></li>
+        <li><time>ago 2026</time><b>UaiSINT Conf 2026</b><span>Belo Horizonte (MG) · apoiador, pelo segundo ano</span><a href="https://www.instagram.com/p/DctYXwIR8iM/" target="_blank" rel="noopener">Ver no Instagram</a></li>
+        <li><time>ago 2026</time><b>Osintomático e OsintomátiCOPS</b><span>São Paulo (SP) · edição especial do Osint &amp; Cachaça</span><a href="https://www.instagram.com/p/Db8EFroETCq/" target="_blank" rel="noopener">Ver no Instagram</a></li>
+        <li><time>jun 2026</time><b>RioCyberSec Happy Hour 2</b><span>Rio de Janeiro (RJ) · comunidade parceira</span><a href="https://www.instagram.com/p/DZ7rpa4JTpu/" target="_blank" rel="noopener">Ver no Instagram</a></li>
+        <li><time>mai 2026</time><b>BSides SP</b><span>São Paulo (SP) · Digital Investigation Village e edição SP, com desafio da InvestigaOSINT</span><a href="https://www.instagram.com/p/DYK5zf9iTNv/" target="_blank" rel="noopener">Ver no Instagram</a></li>
+        <li><time>abr 2026</time><b>OSINT and Beers</b><span>Madri (Espanha) · comunidade irmã que inspirou o formato</span><a href="https://www.instagram.com/p/DXWMasaDYrj/" target="_blank" rel="noopener">Ver no Instagram</a></li>
+        <li><time>2026</time><b>BSides Recife</b><span>Recife (PE) · comunidade parceira</span><a href="https://www.instagram.com/p/DWzsqWCjWpi/" target="_blank" rel="noopener">Ver no Instagram</a></li>
+        <li><time>mar 2026</time><b>BSides RJ</b><span>Rio de Janeiro (RJ) · estruturação da Digital Investigation Village</span><a href="https://www.instagram.com/p/DWTaSInjU3_/" target="_blank" rel="noopener">Ver no Instagram</a></li>
+        <li><time>mar 2026</time><b>Hack In Cariri</b><span>Cariri (CE) · apoio à conferência</span><a href="https://www.instagram.com/p/DUbx_mhDq5I/" target="_blank" rel="noopener">Ver no Instagram</a></li>
+        <li><time>fev 2026</time><b>DICB 2026</b><span>Porto Alegre (RS) · edição especial no 4Beer</span><a href="https://www.instagram.com/p/DVGlRfrEa-z/" target="_blank" rel="noopener">Ver no Instagram</a></li>
+        <li><time>dez 2025</time><b>307 Conference</b><span>São Paulo (SP) · Digital Investigation Village na PUC-SP</span><a href="https://www.instagram.com/p/DSGcS92gFoj/" target="_blank" rel="noopener">Ver no Instagram</a></li>
+        <li><time>ago 2025</time><b>OsintomátiCOPS 2025</b><span>Encontro pré-evento</span><a href="https://www.instagram.com/p/DNhDsZ9Ay3o/" target="_blank" rel="noopener">Ver no Instagram</a></li>
+      </ol>
+      <div class="carrossel" aria-label="Posts do Instagram sobre os eventos apoiados">
+        <div class="carrossel__topo">
+          <h3 class="sub">Direto do Instagram</h3>
+          <div class="carrossel__nav">
+            <button type="button" class="carrossel__btn" data-dir="-1" aria-label="Posts anteriores">←</button>
+            <button type="button" class="carrossel__btn" data-dir="1" aria-label="Próximos posts">→</button>
+          </div>
+        </div>
+        <!-- Embeds oficiais do Instagram; para trocar um post, mude o link em data-instgrm-permalink -->
+        <div class="carrossel__trilho" tabindex="0">
+          <div class="post"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dfs7lYLgF7O/" data-instgrm-version="14"><a href="https://www.instagram.com/p/Dfs7lYLgF7O/" target="_blank" rel="noopener">BSides Brasília · Digital Investigation &amp; OSINT Village</a></blockquote></div>
+          <div class="post"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DctYXwIR8iM/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DctYXwIR8iM/" target="_blank" rel="noopener">UaiSINT Conf 2026</a></blockquote></div>
+          <div class="post"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Db8EFroETCq/" data-instgrm-version="14"><a href="https://www.instagram.com/p/Db8EFroETCq/" target="_blank" rel="noopener">Osintomático e OsintomátiCOPS 2026</a></blockquote></div>
+          <div class="post"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZ7rpa4JTpu/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DZ7rpa4JTpu/" target="_blank" rel="noopener">RioCyberSec Happy Hour 2</a></blockquote></div>
+          <div class="post"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DYK5zf9iTNv/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DYK5zf9iTNv/" target="_blank" rel="noopener">BSides SP · edição SP</a></blockquote></div>
+          <div class="post"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DXWMasaDYrj/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DXWMasaDYrj/" target="_blank" rel="noopener">OSINT and Beers Madri</a></blockquote></div>
+          <div class="post"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DWzsqWCjWpi/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DWzsqWCjWpi/" target="_blank" rel="noopener">BSides Recife</a></blockquote></div>
+          <div class="post"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DWTaSInjU3_/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DWTaSInjU3_/" target="_blank" rel="noopener">BSides RJ</a></blockquote></div>
+          <div class="post"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DUbx_mhDq5I/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DUbx_mhDq5I/" target="_blank" rel="noopener">Hack In Cariri</a></blockquote></div>
+          <div class="post"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DVGlRfrEa-z/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DVGlRfrEa-z/" target="_blank" rel="noopener">DICB 2026 · edição especial</a></blockquote></div>
+          <div class="post"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DSGcS92gFoj/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DSGcS92gFoj/" target="_blank" rel="noopener">307 Conference · Digital Investigation Village</a></blockquote></div>
+          <div class="post"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DNhDsZ9Ay3o/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DNhDsZ9Ay3o/" target="_blank" rel="noopener">OsintomátiCOPS 2025</a></blockquote></div>
+        </div>
+      </div>
+      <p class="nota">Organiza um evento de OSINT, investigação digital ou segurança? <a href="#contato">Chame a capivara</a>.</p>
+    </div>
+  </section>
+
+  <!-- TINO -->
+  <section class="sec sec--tino" id="tino">
+    <div class="wrap dois dois--tino">
+      <img class="tino-cena" src="assets/img/tino-cena.jpg" alt="Tino, de lupa em punho, numa rua da cidade à noite" loading="lazy" width="900" height="1600">
+      <div>
+        <p class="kicker">Nosso mascote</p>
+        <h2>Tino, o conector boêmio</h2>
+        <p>Capivara detetive do OSINTVERSO, Tino é o mascote do Osint &amp; Cachaça. Representa a ideia de que inteligência também se constrói em comunidade: uma boa conversa aproxima pessoas e transforma encontros informais em conhecimento útil.</p>
+        <p>A escolha não é por acaso: a capivara, maior roedor do mundo, está presente em todos os estados brasileiros. Como a comunidade.</p>
+        <dl class="ficha">
+          <div><dt>Arquétipo</dt><dd>O Conector Boêmio</dd></div>
+          <div><dt>Traços</dt><dd>Sociável, articulador, observador, bem-humorado, colaborativo</dd></div>
+          <div><dt>Código visual</dt><dd>Chapéu de detetive, lupa, sobretudo escuro e colete clássico</dd></div>
+        </dl>
+        <blockquote>“Bora conversar e tomar uma.”</blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- PALESTRE -->
+  <section class="sec escuro" id="palestre">
+    <div class="wrap dois">
+      <div>
+        <p class="kicker">Chamada para charlas</p>
+        <h2>Tem um caso, uma ferramenta ou um erro para contar?</h2>
+        <p>As charlas têm 15 minutos e falam de prática: investigações (sem dados sensíveis), técnicas, ferramentas, OPSEC, geolocalização, fraudes, threat intelligence, aspectos jurídicos da prova digital. Iniciantes são bem-vindos.</p>
+        <a class="btn btn--ouro" href="#charla">Propor uma charla</a>
+      </div>
+      <ul class="regras">
+        <li><b>15 minutos</b>, com tempo para perguntas no balcão.</li>
+        <li><b>Sem pitch de vendas.</b> Apoiadores falam de técnica, não de produto.</li>
+        <li><b>Ética e legalidade</b>: nada de expor pessoas, dados pessoais ou investigações em curso.</li>
+        <li><b>Modelo de slides</b> da comunidade enviado após o aceite.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- APOIE -->
+  <section class="sec" id="apoie">
+    <div class="wrap">
+      <p class="kicker">Patrocínio</p>
+      <h2>Brinde com a comunidade</h2>
+      <p class="intro">Presença de marca sem descaracterizar a experiência: público qualificado, confiança antes da venda e contatos apenas com consentimento.</p>
+      <div class="cotas">
+        <article class="cota"><p class="cota__tipo">Prata</p><h3>Purinha</h3><p class="cota__per">por edição</p><p>Logo nas peças digitais e no telão, agradecimento na abertura.</p><a class="cota__mais" href="#apoiar">Saiba mais →</a></article>
+        <article class="cota"><p class="cota__tipo">Guardada</p><h3>Reservada</h3><p class="cota__per">por edição</p><p>Banner, interação direta, sorteio com QR Code e pitch de 2 minutos.</p><a class="cota__mais" href="#apoiar">Saiba mais →</a></article>
+        <article class="cota"><p class="cota__tipo">Ouro</p><h3>Envelhecida</h3><p class="cota__per">por edição</p><p>Charla técnica de 15 minutos e exclusividade de setor.</p><a class="cota__mais" href="#apoiar">Saiba mais →</a></article>
+        <article class="cota cota--top"><p class="cota__tipo">Coapresentação</p><h3>Premium</h3><p class="cota__per">por edição</p><p>“Osint &amp; Cachaça, apresentado por” sua marca, com boas-vindas no palco.</p><a class="cota__mais" href="#apoiar">Saiba mais →</a></article>
+        <article class="cota cota--top"><p class="cota__tipo">Diamante</p><h3>Extrapremium</h3><p class="cota__per">3 edições</p><p>Premium em três edições, lounge VIP e vídeo de melhores momentos.</p><a class="cota__mais" href="#apoiar">Saiba mais →</a></article>
+      </div>
+      <div class="ativacoes">
+        <p><b>Ativações avulsas:</b> rodada por conta da marca (shout a round), sorteio de brindes e divulgação nos grupos da comunidade.</p>
+        <p class="nota">Valores, contrapartidas e o media kit completo são enviados a quem demonstrar interesse.</p>
+        <div class="acoes">
+          <a class="btn btn--caramelo" href="#apoiar">Saiba mais e receba o media kit</a>
+        </div>
+      </div>
+      <h3 class="sub">Já brindaram com a gente</h3>
+      <ul class="marcas">
+        <li>WB Educação</li><li>Polímata Inc.</li><li>Axur</li><li>Apura</li><li>senhasegura</li><li>Sherlockeye</li>
+        <li>DropReal</li><li>Snap Forensics</li><li>BlueDiamond</li><li>Leonardi Advogados</li><li>KELA</li><li>Certus Cyber</li>
+        <li>SafeLabs</li><li>Gila Security</li><li>CustodIA Lab</li><li>Olli</li><li>Cyber Hunter Academy</li><li>investigaosint.br</li>
+        <li>ADEPPE</li><li>Governo do RS</li><li>Cachaçaria Carvalheira</li><li>Sunsec</li><li>BaikalSec</li><li>Sucuri HC</li>
+      </ul>
+      <p class="nota">Comunidades parceiras: OsintHunters Brasil, Secops Summit, DICB e os eventos da seção <a href="#apoios">Apoios</a>.</p>
+    </div>
+  </section>
+
+  <!-- CADASTROS (FormSubmit → caixa da organização) -->
+  <section class="sec sec--clara" id="cadastros">
+    <div class="wrap">
+      <p class="kicker">Cadastros</p>
+      <h2>Fale com a organização</h2>
+      <p class="intro">Quer subir no balcão com uma charla ou levar sua marca a uma edição? Deixe seus dados: a organização responde por e-mail.</p>
+      <div class="forms">
+        <form class="form" id="charla" method="post" action="https://formsubmit.co/osmosint1@gmail.com" data-assunto="Nova proposta de charla · Osint & Cachaça" novalidate>
+          <h3>Propor uma charla</h3>
+          <p class="form__d">15 minutos de prática: caso, técnica, ferramenta ou erro que ensinou algo.</p>
+          <div class="campo"><label for="c-nome">Nome *</label><input id="c-nome" name="Nome" required autocomplete="name"></div>
+          <div class="campo"><label for="c-email">E-mail *</label><input id="c-email" name="email" type="email" required autocomplete="email"></div>
+          <div class="campo campo--meia"><label for="c-cidade">Cidade/UF *</label><input id="c-cidade" name="Cidade" required></div>
+          <div class="campo campo--meia"><label for="c-perfil">LinkedIn ou Instagram</label><input id="c-perfil" name="Perfil" placeholder="link ou @"></div>
+          <div class="campo"><label for="c-titulo">Título da charla *</label><input id="c-titulo" name="Titulo" required></div>
+          <div class="campo"><label for="c-tema">Tema *</label>
+            <select id="c-tema" name="Tema" required>
+              <option value="">Escolha</option>
+              <option>Caso de investigação (sem dados sensíveis)</option>
+              <option>Ferramenta ou técnica de OSINT</option>
+              <option>Geolocalização, GEOINT ou IMINT</option>
+              <option>SOCMINT e redes sociais</option>
+              <option>Fraudes e golpes</option>
+              <option>Threat intelligence</option>
+              <option>OPSEC</option>
+              <option>Jurídico e prova digital</option>
+              <option>Carreira e outros</option>
+            </select></div>
+          <div class="campo"><label for="c-resumo">Resumo *</label><textarea id="c-resumo" name="Resumo" rows="4" maxlength="800" required placeholder="Em poucas linhas: o que o público vai levar para casa?"></textarea></div>
+          <div class="campo campo--meia"><label for="c-edicao">Cidade ou edição em que gostaria de falar</label><input id="c-edicao" name="Edicao"></div>
+          <div class="campo campo--meia"><label for="c-exp">Já palestrou antes?</label>
+            <select id="c-exp" name="Experiencia"><option>Seria a primeira vez</option><option>Já palestrei algumas vezes</option><option>Palestro com frequência</option></select></div>
+          <label class="aceite"><input type="checkbox" name="Consentimento" value="Sim" required> Autorizo o uso destes dados para contato sobre a charla, conforme a LGPD. Eles não serão repassados a terceiros.</label>
+          <input type="text" name="_honey" class="pote" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn btn--caramelo" type="submit">Enviar proposta</button>
+          <p class="form__msg" role="status" aria-live="polite"></p>
+        </form>
+
+        <form class="form form--escuro" id="apoiar" method="post" action="https://formsubmit.co/osmosint1@gmail.com" data-assunto="Interesse em apoiar · Osint & Cachaça" novalidate>
+          <h3>Quero apoiar o Osint &amp; Cachaça</h3>
+          <p class="form__d">Receba o media kit com valores e contrapartidas e converse com a organização.</p>
+          <div class="campo"><label for="a-nome">Nome *</label><input id="a-nome" name="Nome" required autocomplete="name"></div>
+          <div class="campo campo--meia"><label for="a-email">E-mail corporativo *</label><input id="a-email" name="email" type="email" required autocomplete="email"></div>
+          <div class="campo campo--meia"><label for="a-fone">WhatsApp</label><input id="a-fone" name="WhatsApp" type="tel" autocomplete="tel"></div>
+          <div class="campo campo--meia"><label for="a-empresa">Empresa ou instituição *</label><input id="a-empresa" name="Empresa" required autocomplete="organization"></div>
+          <div class="campo campo--meia"><label for="a-cargo">Cargo</label><input id="a-cargo" name="Cargo" autocomplete="organization-title"></div>
+          <fieldset class="campo"><legend>Interesse *</legend>
+            <label class="opcao"><input type="checkbox" name="Interesse" value="Cota em uma edição"> Cota em uma edição</label>
+            <label class="opcao"><input type="checkbox" name="Interesse" value="Pacote com várias edições"> Pacote com várias edições</label>
+            <label class="opcao"><input type="checkbox" name="Interesse" value="Ativação avulsa"> Ativação avulsa (rodada, sorteio, divulgação)</label>
+            <label class="opcao"><input type="checkbox" name="Interesse" value="Sediar ou levar a uma cidade"> Sediar ou levar o encontro a uma cidade</label>
+            <label class="opcao"><input type="checkbox" name="Interesse" value="Apoio institucional"> Apoio institucional ou de comunidade</label>
+          </fieldset>
+          <div class="campo"><label for="a-cidade">Cidades ou edições de interesse</label><input id="a-cidade" name="Cidades"></div>
+          <div class="campo"><label for="a-msg">Mensagem</label><textarea id="a-msg" name="Mensagem" rows="3" maxlength="800"></textarea></div>
+          <label class="aceite"><input type="checkbox" name="Consentimento" value="Sim" required> Autorizo o uso destes dados para contato comercial sobre o Osint &amp; Cachaça, conforme a LGPD. Eles não serão repassados a terceiros.</label>
+          <input type="text" name="_honey" class="pote" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn btn--ouro" type="submit">Quero receber o media kit</button>
+          <p class="form__msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- REDES SOCIAIS -->
+  <section class="sec escuro" id="redes">
+    <div class="wrap">
+      <p class="kicker">Redes sociais</p>
+      <h2>Acompanhe a capivara</h2>
+      <p class="intro intro--clara">Agenda das edições, fotos, dicas de OSINT e os eventos que apoiamos saem primeiro nas redes.</p>
+      <div class="redes">
+        <a class="rede rede--destaque" href="https://www.instagram.com/osintecachaca" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" class="cheio"/></svg>
+          <span class="rede__nome">Instagram</span>
+          <b>@osintecachaca</b>
+          <span>3.200+ seguidores · fotos das edições, agenda, dicas de OSINT e apoios a eventos</span>
+          <span class="rede__cta">Seguir no Instagram →</span>
+        </a>
+        <a class="rede rede--destaque" data-link="linkedin" href="#">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10.5v6M8 7.6v.1M11.5 16.5v-6m0 2.6c0-1.6 1-2.7 2.4-2.7s2.2 1 2.2 2.7v3.4"/></svg>
+          <span class="rede__nome">LinkedIn</span>
+          <b>Página Osint &amp; Cachaça</b>
+          <span>Cobertura das edições e oportunidades para o público profissional de segurança, inteligência e investigação</span>
+          <span class="rede__cta">Seguir no LinkedIn →</span>
+        </a>
+        <a class="rede" data-link="comunidade" href="#">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 19.5l1.1-3.6A8 8 0 1 1 8.3 18.6z"/><path d="M9.3 8.8c.2 2.6 3 5.4 5.9 5.9l1-1.2-1.8-.9-.8.8c-1-.4-2.2-1.6-2.6-2.6l.8-.8-.9-1.8z" class="cheio"/></svg>
+          <span class="rede__nome">WhatsApp</span>
+          <b>Comunidade e grupos</b>
+          <span>Avisos de novas edições, inscrições e o grupo de cada cidade</span>
+          <span class="rede__cta">Entrar no grupo →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONEXÃO OSINTHUNTERS + OSINT CONNECTION -->
+  <section class="sec sec--conexao" id="conexao">
+    <div class="wrap">
+      <p class="kicker">Conexões</p>
+      <h2>Entre um brinde e outro, a investigação continua</h2>
+      <p class="intro">O Osint &amp; Cachaça faz parte de uma rede maior: os portais OsintHunters Brasil e OsmOSINT, a Digital Investigation Village nas conferências e a Osint Connection, a comunidade que reúne no WhatsApp os grupos de OSINT parceiros.</p>
+      <div class="conexao">
+        <article class="portal">
+          <p class="portal__selo">osinthunters.com.br</p>
+          <h3>OsintHunters Brasil</h3>
+          <p>O portal brasileiro de OSINT: guias, ferramentas, vídeos e dicas de segurança digital, com conteúdo prático para quem investiga e para quem quer se proteger de golpes.</p>
+          <ul class="portal__num">
+            <li><b>60+</b><span>artigos e guias</span></li>
+            <li><b>49+</b><span>ferramentas catalogadas</span></li>
+            <li><b>3</b><span>radares OSINT</span></li>
+            <li><b>2x</b><span>newsletter por semana</span></li>
+          </ul>
+          <ul class="portal__links">
+            <li><a href="https://osinthunters.com.br/artigos" target="_blank" rel="noopener"><b>Artigos e guias</b><span>Geolocalização, dorks, domínios, verificação de imagens, LGPD</span></a></li>
+            <li><a href="https://osinthunters.com.br/panorama" target="_blank" rel="noopener"><b>Panorama e Sinais</b><span>O que se moveu no Brasil, no mundo e no ciber</span></a></li>
+            <li><a href="https://osinthunters.com.br/ferramentas" target="_blank" rel="noopener"><b>Diretório de ferramentas</b><span>Biblioteca viva de recursos de OSINT</span></a></li>
+            <li><a href="https://osinthunters.com.br/tube" target="_blank" rel="noopener"><b>OsintHunters Tube</b><span>Vídeos curados: tutoriais, GEOINT e técnicas</span></a></li>
+            <li><a href="https://osinthunters.com.br/verificador" target="_blank" rel="noopener"><b>Verificador de golpes</b><span>Cole uma mensagem suspeita e veja os sinais</span></a></li>
+            <li><a href="https://osinthunters.com.br/newsletter" target="_blank" rel="noopener"><b>Newsletter</b><span>Toda segunda e sexta</span></a></li>
+          </ul>
+          <p class="portal__radares">Radares OSINT:
+            <a href="https://radardrogas.osinthunters.com.br/" target="_blank" rel="noopener">Drogas</a> ·
+            <a href="https://radarciber.osinthunters.com.br/" target="_blank" rel="noopener">Crimes cibernéticos</a> ·
+            <a href="https://aliciamento.osinthunters.com.br/" target="_blank" rel="noopener">Aliciamento online</a></p>
+          <a class="btn btn--caramelo" href="https://osinthunters.com.br" target="_blank" rel="noopener">Visitar o OsintHunters Brasil</a>
+        </article>
+        <article class="portal">
+          <p class="portal__selo">osmosint.com.br</p>
+          <h3>OsmOSINT</h3>
+          <p>Plataforma de ensino e prática de inteligência de fontes abertas: metodologia de investigação, limites legais e éticos, ferramentas e casos reais, com a pergunta que guia tudo: até onde eu posso ir, mesmo sendo fonte aberta?</p>
+          <ul class="portal__num">
+            <li><b>211</b><span>ferramentas no OsintBoard</span></li>
+            <li><b>25</b><span>categorias de busca</span></li>
+            <li><b>4</b><span>etapas do ciclo de investigação</span></li>
+            <li><b>OOSI</b><span>OSI e OSINT explicados</span></li>
+          </ul>
+          <ul class="portal__links">
+            <li><a href="https://osmosint.com.br/osintboard" target="_blank" rel="noopener"><b>OsintBoard</b><span>Painel de ferramentas por categoria, com busca e favoritos</span></a></li>
+            <li><a href="https://osmosint.com.br/artigos" target="_blank" rel="noopener"><b>Artigos</b><span>Textos sobre método e prática de OSINT</span></a></li>
+            <li><a href="https://osmosint.com.br/recursos" target="_blank" rel="noopener"><b>Recursos</b><span>Materiais de apoio para estudar e praticar</span></a></li>
+            <li><a href="https://osmosint.com.br/#legal" target="_blank" rel="noopener"><b>Aspectos legais</b><span>Legalidade, ética, transparência e responsabilidade</span></a></li>
+            <li><a href="https://wbeduca.com.br" target="_blank" rel="noopener"><b>Cursos</b><span>Formação em OSINT com a WB Educação</span></a></li>
+            <li><a href="https://www.instagram.com/osmosint" target="_blank" rel="noopener"><b>@osmosint</b><span>Parceiro do Osint &amp; Cachaça nas Villages e edições</span></a></li>
+          </ul>
+          <a class="btn btn--caramelo" href="https://osmosint.com.br" target="_blank" rel="noopener">Visitar o OsmOSINT</a>
+        </article>
+        <article class="village">
+          <div>
+            <p class="kicker">Projeto parceiro</p>
+            <h3>Digital Investigation Village</h3>
+            <p>A trilha de investigação digital que leva OSINT, evidência digital, DFIR e IA aplicada à investigação para dentro das conferências de segurança da comunidade. Uma sala inteira de palestras, com moderação de quem vive o tema, e o Osint &amp; Cachaça fechando a noite.</p>
+            <ul class="village__eds">
+              <li><b>307 Conference</b><span>São Paulo · dez 2025</span></li>
+              <li><b>BSides RJ</b><span>Rio de Janeiro · mar 2026</span></li>
+              <li><b>BSides SP</b><span>São Paulo · mai 2026</span></li>
+              <li><b>BSides Brasília</b><span>Brasília · nov 2026</span></li>
+            </ul>
+          </div>
+          <div class="village__links">
+            <a class="btn btn--ouro" href="https://www.instagram.com/digitalinvestigationvillage" target="_blank" rel="noopener">Instagram da Village</a>
+            <a class="btn btn--linha" href="https://www.linkedin.com/groups/9397282" target="_blank" rel="noopener">Grupo no LinkedIn</a>
+          </div>
+        </article>
+        <div class="outros">
+          <p class="kicker">Outros projetos na rede</p>
+          <ul>
+            <li><a href="https://www.instagram.com/uaisintmg" target="_blank" rel="noopener"><b>UaiSINT</b><span>Comunidade e conferência mineira de OSINT</span></a></li>
+            <li><a href="https://www.instagram.com/dicb_oficial" target="_blank" rel="noopener"><b>DICB</b><span>Digital Investigation Conference Brazil</span></a></li>
+            <li><a href="https://wbeduca.com.br" target="_blank" rel="noopener"><b>WB Educação</b><span>Cursos e pós-graduações em investigação e inteligência</span></a></li>
+          </ul>
+        </div>
+        <article class="connection">
+          <p class="kicker">Comunidade no WhatsApp</p>
+          <h3>Osint Connection</h3>
+          <p>Uma só comunidade que integra os grupos de OSINT parceiros. Entrando nela, você encontra:</p>
+          <ul class="grupos">
+            <li><b>Osint &amp; Cachaça</b><span>dois grupos, com avisos e conversa das edições</span></li>
+            <li><b>OsintHunters Brasil</b><span>conteúdo, ferramentas e novidades do portal</span></li>
+            <li><b>UaiSINT</b><span>a comunidade mineira de OSINT</span></li>
+          </ul>
+          <div class="connection__qr">
+            <img src="assets/img/qr-osint-connection.png" alt="QR Code da comunidade Osint Connection no WhatsApp" loading="lazy" width="450" height="450">
+            <a class="btn btn--ouro" data-link="connection" href="#">Entrar na Osint Connection</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURSOS (WB EDUCAÇÃO) -->
+  <section class="sec escuro" id="cursos">
+    <div class="wrap">
+      <p class="kicker">Cursos de OSINT</p>
+      <h2>Do primeiro dork à pós-graduação</h2>
+      <p class="intro intro--clara">A conversa no balcão desperta a curiosidade; a formação vem com a WB Educação, parceira do Osint &amp; Cachaça. Montamos uma trilha com os cursos de fontes abertas do catálogo, do básico à Pós em OSINT.</p>
+      <ol class="trilha">
+        <li class="etapa">
+          <p class="etapa__n">1 · Primeiros passos</p>
+          <h3>Fundamentos</h3>
+          <p class="etapa__d">Conceitos, ambiente seguro e as primeiras técnicas.</p>
+          <ul>
+            <li><a href="https://wbeduca.com.br/pt/cursos/fundamentos-em-osint" target="_blank" rel="noopener">Fundamentos em OSINT</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/nocoes-de-tecnologia-aplicaveis-a-investigacao-criminal" target="_blank" rel="noopener">Noções de Tecnologia Aplicáveis à Investigação</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/preparacao-de-ambiente-seguro-opsec-para-investigacao-criminal" target="_blank" rel="noopener">Ambiente Seguro (OPSEC) para Investigação</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/combo-osint-essencial" target="_blank" rel="noopener">Combo OSINT Essencial</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/ebook-tratado-de-osint-volume-i-tecnicas-de-inteligencia-e-investigacao-e-limites-eticos-e-legais" target="_blank" rel="noopener">eBook Tratado de OSINT, vol. I</a></li>
+          </ul>
+        </li>
+        <li class="etapa">
+          <p class="etapa__n">2 · Formação</p>
+          <h3>Método e técnicas</h3>
+          <p class="etapa__d">O curso completo de OSINT e as disciplinas que o sustentam.</p>
+          <ul>
+            <li><a href="https://wbeduca.com.br/pt/cursos/curso-de-inteligencia-e-investigacao-em-fontes-abertas-osint-10a-edicao" target="_blank" rel="noopener">Inteligência e Investigação em Fontes Abertas – OSINT (10ª ed.)</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/osint-by-browser-padroes-pivos-e-cadeia-de-custodia" target="_blank" rel="noopener">OSINT by Browser: padrões, pivôs e cadeia de custódia</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/curso-de-socmint-do-fbi-ao-real-madrid-2a-edicao-virtual" target="_blank" rel="noopener">SOCMINT “Do FBI ao Real Madrid”</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/fundamentos-de-geoint-analise-de-imagens-de-satelite-e-geolocalizacao" target="_blank" rel="noopener">Fundamentos de GEOINT</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/vhumint-inteligencia-humana-virtual-aplicada-a-investigacoes-em-fontes-abertas" target="_blank" rel="noopener">VHUMINT: Inteligência Humana Virtual</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/curso-de-introducao-a-analise-de-vinculos-em-investigacoes-complexas" target="_blank" rel="noopener">Análise de Vínculos</a></li>
+          </ul>
+        </li>
+        <li class="etapa">
+          <p class="etapa__n">3 · Especialização</p>
+          <h3>Plataformas e temas</h3>
+          <p class="etapa__d">Aprofundamento por rede, tipo de dado e cenário.</p>
+          <ul>
+            <li><a href="https://wbeduca.com.br/pt/cursos/masterclass-osint-by-telegram" target="_blank" rel="noopener">Masterclass OSINT by Telegram</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/curso-osint-no-discord-investigacao-na-pratica" target="_blank" rel="noopener">OSINT no Discord</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/curso-investigacao-digital-aplicada-ao-tiktok" target="_blank" rel="noopener">Investigação Digital no TikTok</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/inteligencia-e-investigacao-patrimonial-com-fontes-abertas" target="_blank" rel="noopener">Investigação Patrimonial com Fontes Abertas</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/rastreamento-e-bloqueio-de-criptoativos-na-pratica" target="_blank" rel="noopener">Rastreamento de Criptoativos</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/curso-infostealers-e-credenciais-comprometidas" target="_blank" rel="noopener">Infostealers e Credenciais Comprometidas</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/curso-de-fundamentos-da-investigacao-na-deep-e-dark-web" target="_blank" rel="noopener">Deep e Dark Web</a> · <a href="https://wbeduca.com.br/pt/cursos/curso-de-tor-como-framework-de-investigacao-inteligencia-e-privacidade-2a-edicao" target="_blank" rel="noopener">Tor</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/curso-shell-script-para-osint-desenvolver-ferramentas-de-pesquisa" target="_blank" rel="noopener">Shell Script para OSINT</a></li>
+            <li><a href="https://wbeduca.com.br/pt/cursos/combo-especial-em-osint-geoint-e-imint" target="_blank" rel="noopener">Combo OSINT, GEOINT e IMINT</a></li>
+          </ul>
+        </li>
+        <li class="etapa etapa--pos">
+          <p class="etapa__n">4 · Pós-graduação</p>
+          <h3>Pós em OSINT</h3>
+          <p class="etapa__d">Inteligência e Investigação em Fontes Abertas: especialização com a Faculdade FABIN, reconhecida pelo MEC: 365 horas, aulas ao vivo e gravadas, e 8 seções com certificação intermediária.</p>
+          <ul class="etapa__secoes">
+            <li>OSINT e Ciberinteligência</li><li>OPSEC e Assistente Virtual de Investigação</li><li>Rastreamento Digital</li><li>GEOINT, IMINT e HUMINT</li>
+            <li>Técnicas Especiais de Coleta</li><li>Investigação Digital</li><li>Análise de Dados e Ferramentas Avançadas</li><li>IA e Inovação em OSINT</li>
+          </ul>
+          <a class="btn btn--ouro" href="https://wbeduca.com.br/pt/cursos/pos-graduacao-em-inteligencia-e-investigacao-em-fontes-abertas-osint-turma-3" target="_blank" rel="noopener">Conhecer a Pós em OSINT</a>
+          <p class="etapa__rel">Também na WB:
+            <a href="https://wbeduca.com.br/pt/cursos/pos-graduacao-em-investigacao-digital-turma-6" target="_blank" rel="noopener">Pós em Investigação Digital</a> ·
+            <a href="https://wbeduca.com.br/pt/cursos/pos-graduacao-em-inteligencia-artificial-aplicada-a-investigacao-digital" target="_blank" rel="noopener">Pós em IA Aplicada à Investigação</a></p>
+        </li>
+      </ol>
+      <p class="nota">Catálogo completo em <a href="https://wbeduca.com.br/pt/cursos" target="_blank" rel="noopener">wbeduca.com.br</a>. Valores, turmas e datas conforme a página de cada curso.</p>
+    </div>
+  </section>
+
+  <!-- QUEM FAZ + PRINCÍPIOS -->
+  <section class="sec sec--clara">
+    <div class="wrap dois">
+      <div class="pessoa">
+        <img src="assets/img/emerson-wendt.png" alt="Emerson Wendt" loading="lazy" width="500" height="500">
+        <div>
+          <p class="kicker">Idealização nacional</p>
+          <h2>Prof. Dr. Emerson Wendt</h2>
+          <p>Delegado e ex-Chefe da Polícia Civil do RS, mestre e doutor em Direito pela Universidade La Salle, cofundador da WB Educação e da Polímata Inc. Cada cidade tem anfitriões locais que fazem o encontro acontecer.</p>
+        </div>
+      </div>
+      <div class="principios">
+        <h2>Nossos princípios</h2>
+        <ul>
+          <li><b>Curadoria independente.</b> O conteúdo das charlas não está à venda.</li>
+          <li><b>Privacidade.</b> Dados pessoais só com consentimento, conforme a LGPD, e nunca repassados a terceiros.</li>
+          <li><b>Consumo responsável.</b> Evento para maiores de 18 anos. Se beber, não dirija.</li>
+          <li><b>Respeito.</b> Ambiente acolhedor para todas as pessoas; assédio e exposição de terceiros não são tolerados.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="sec escuro" id="contato">
+    <div class="wrap dois">
+      <div>
+        <p class="kicker">Contato</p>
+        <h2>Vamos brindar juntos?</h2>
+        <p>Para participar, propor uma charla, levar o encontro à sua cidade ou apoiar uma edição, fale com a organização.</p>
+        <ul class="contatos">
+          <li><span>Instagram</span><a href="https://www.instagram.com/osintecachaca" rel="noopener" target="_blank">@osintecachaca</a></li>
+          <li><span>LinkedIn</span><a data-link="linkedin" href="#">Página Osint &amp; Cachaça</a></li>
+          <li><span>WhatsApp</span><a data-link="comunidade" href="#">Grupo Osint &amp; Cachaça</a></li>
+          <li><span>Comunidade</span><a data-link="connection" href="#">Osint Connection (grupos parceiros)</a></li>
+          <li><span>Portais</span><span class="contatos__multi"><a href="https://osinthunters.com.br" rel="noopener" target="_blank">osinthunters.com.br</a> · <a href="https://osmosint.com.br" rel="noopener" target="_blank">osmosint.com.br</a></span></li>
+          <li><span>Charlas</span><a href="#charla">Formulário de proposta</a></li>
+          <li><span>Patrocínio</span><a href="#apoiar">Formulário de interesse</a></li>
+          <li><span>Organização</span><a href="https://linktr.ee/emersonwendt" rel="noopener" target="_blank">linktr.ee/emersonwendt</a></li>
+        </ul>
+      </div>
+      <div class="qr">
+        <img src="assets/img/qr-whatsapp.png" alt="QR Code do grupo da comunidade no WhatsApp" loading="lazy" width="450" height="450">
+        <p>Aponte a câmera para entrar na Comunidade no WhatsApp</p>
+        <a class="btn btn--ouro" data-link="comunidade" href="#contato">Entrar na Comunidade</a>
+      </div>
+    </div>
+    <div class="skyline skyline--creme" aria-hidden="true"></div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="wrap rodape__in">
+    <img src="assets/img/logo-nova-200.png" alt="" width="100" height="94">
+    <p>Osint &amp; Cachaça é uma iniciativa da <b>Polímata Inc.</b> com apoio da <b>WB Educação</b>. Marca com pedido de registro.<br>Beba com moderação. Venda e consumo de bebidas alcoólicas proibidos para menores de 18 anos.</p>
+    <p class="ano-atual">© <span id="ano">2026</span> Osint &amp; Cachaça</p>
+  </div>
+</footer>
+
+<script src="assets/site.js?v=20261126"></script>
+</body>
+</html>

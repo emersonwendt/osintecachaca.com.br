@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://osintecachaca.com.br/sitemap.xml
