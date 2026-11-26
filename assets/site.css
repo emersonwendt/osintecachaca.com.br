@@ -102,6 +102,24 @@ p { margin: 0 0 1em; }
 .ano li { padding: 4px 0; border-bottom: 1px dashed rgba(110, 82, 51, .3); font-size: .98rem; }
 .ano--largo ul { columns: 2; column-gap: 24px; }
 .ano--largo li { break-inside: avoid; }
+.historico { margin-top: 56px; }
+.historico .sub { margin-top: 0; }
+.hist-ano { margin-top: 18px; }
+.hist-ano h4 { font: 900 1.1rem var(--tit); color: var(--caramelo); margin: 0 0 8px; }
+.hist-ed { background: var(--creme-2); border-radius: 12px; margin-bottom: 8px; border-left: 4px solid var(--caramelo); }
+.hist-ed summary { cursor: pointer; list-style: none; display: grid; grid-template-columns: 1.3fr 1.6fr auto; gap: 14px; align-items: center; padding: 12px 16px; }
+.hist-ed summary::-webkit-details-marker { display: none; }
+.hist-ed summary::after { content: "+"; font: 700 1.2rem var(--corpo); color: var(--caramelo); }
+.hist-ed[open] summary::after { content: "–"; }
+.hist-nome { font-family: var(--tit); font-weight: 900; }
+.hist-meta { color: var(--suave); font-size: .92rem; }
+.hist-qtd { font-size: .85rem; font-weight: 700; color: var(--caramelo-esc); white-space: nowrap; }
+.hist-ed summary { grid-template-columns: 1.3fr 1.6fr auto 16px; }
+.hist-corpo { padding: 0 16px 14px; }
+.hist-charlas { margin: 0 0 10px; padding-left: 1.1em; font-size: .95rem; }
+.hist-charlas li { margin: 4px 0; }
+.hist-linha { margin: 4px 0 0; font-size: .92rem; color: var(--suave); }
+.hist-linha span { display: inline-block; min-width: 100px; font-weight: 700; color: var(--madeira); }
 .proxima { margin-top: 56px; background: var(--creme-2); border-radius: var(--raio); padding: 32px 36px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; box-shadow: 0 8px 24px rgba(59, 38, 22, .08); }
 .proxima h3 { font-size: 1.5rem; }
 .proxima p:last-child { margin: 0; color: var(--suave); }
@@ -335,6 +353,8 @@ blockquote { margin: 1.4em 0 0; font: italic 1.5rem var(--tit); color: var(--car
 }
 @media (max-width: 520px) {
   .wrap, .hero__in, .topo__in { padding-left: 16px; padding-right: 16px; }
+  .hist-ed summary { grid-template-columns: 1fr 16px; }
+  .hist-meta, .hist-qtd { grid-column: 1; }
   .cotas, .agenda, .linha-tempo, .apoios, .redes, .trilha { grid-template-columns: 1fr; }
   .rede, .portal, .connection, .form { padding: 22px; }
   .campo--meia { flex-basis: 100% !important; }
