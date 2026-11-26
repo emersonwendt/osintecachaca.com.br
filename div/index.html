@@ -273,7 +273,8 @@
       <form class="form" id="proposta" method="post" action="https://formsubmit.co/c9de17376398da4020c1bc30fc92c231" data-assunto="Nova proposta de palestra · Digital Investigation Village" novalidate>
         <h3>Propor uma palestra</h3>
         <div class="campo"><label for="p-nome">Nome *</label><input id="p-nome" name="Nome" required autocomplete="name"></div>
-        <div class="campo"><label for="p-email">E-mail *</label><input id="p-email" name="email" type="email" required autocomplete="email"></div>
+        <div class="campo campo--meia"><label for="p-email">E-mail *</label><input id="p-email" name="email" type="email" required autocomplete="email"></div>
+        <div class="campo campo--meia"><label for="p-fone">WhatsApp com DDD *</label><input id="p-fone" name="WhatsApp" type="tel" required autocomplete="tel" pattern="[\d\s\(\)\+\.\-]{10,20}" title="Número com DDD, ex.: (51) 99999-9999" placeholder="(51) 99999-9999"></div>
         <div class="campo campo--meia"><label for="p-cidade">Cidade/UF *</label><input id="p-cidade" name="Cidade" required></div>
         <div class="campo campo--meia"><label for="p-perfil">LinkedIn ou Instagram</label><input id="p-perfil" name="Perfil" placeholder="link ou @"></div>
         <div class="campo"><label for="p-atuacao">Atuação profissional</label><input id="p-atuacao" name="Atuacao" placeholder="instituição ou empresa, cargo"></div>
@@ -291,7 +292,7 @@
           </select></div>
         <div class="campo"><label for="p-resumo">Resumo *</label><textarea id="p-resumo" name="Resumo" rows="4" maxlength="1000" required placeholder="O que o público vai aprender?"></textarea></div>
         <div class="campo"><label for="p-evento">Conferência ou cidade de interesse</label><input id="p-evento" name="Evento" placeholder="ex.: BSides, 307c, qualquer uma"></div>
-        <label class="aceite"><input type="checkbox" name="Consentimento" value="Sim" required> Autorizo o uso destes dados para contato sobre a palestra, conforme a LGPD. Eles não serão repassados a terceiros.</label>
+        <label class="aceite"><input type="checkbox" name="Consentimento" value="Sim" required> Autorizo o uso destes dados (e-mail e WhatsApp) para contato sobre a palestra, conforme a LGPD. Eles não serão repassados a terceiros.</label>
         <input type="text" name="_honey" class="pote" tabindex="-1" autocomplete="off" aria-hidden="true">
         <button class="btn btn--acento" type="submit">Enviar proposta</button>
         <p class="form__msg" role="status" aria-live="polite"></p>

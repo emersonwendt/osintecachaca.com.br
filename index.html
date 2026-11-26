@@ -601,7 +601,8 @@
           <h3>Propor uma charla</h3>
           <p class="form__d">15 minutos de prática: caso, técnica, ferramenta ou erro que ensinou algo.</p>
           <div class="campo"><label for="c-nome">Nome *</label><input id="c-nome" name="Nome" required autocomplete="name"></div>
-          <div class="campo"><label for="c-email">E-mail *</label><input id="c-email" name="email" type="email" required autocomplete="email"></div>
+          <div class="campo campo--meia"><label for="c-email">E-mail *</label><input id="c-email" name="email" type="email" required autocomplete="email"></div>
+          <div class="campo campo--meia"><label for="c-fone">WhatsApp com DDD *</label><input id="c-fone" name="WhatsApp" type="tel" required autocomplete="tel" pattern="[\d\s\(\)\+\.\-]{10,20}" title="Número com DDD, ex.: (51) 99999-9999" placeholder="(51) 99999-9999"></div>
           <div class="campo campo--meia"><label for="c-cidade">Cidade/UF *</label><input id="c-cidade" name="Cidade" required></div>
           <div class="campo campo--meia"><label for="c-perfil">LinkedIn ou Instagram</label><input id="c-perfil" name="Perfil" placeholder="link ou @"></div>
           <div class="campo"><label for="c-titulo">Título da charla *</label><input id="c-titulo" name="Titulo" required></div>
@@ -622,7 +623,7 @@
           <div class="campo campo--meia"><label for="c-edicao">Cidade ou edição em que gostaria de falar</label><input id="c-edicao" name="Edicao"></div>
           <div class="campo campo--meia"><label for="c-exp">Já palestrou antes?</label>
             <select id="c-exp" name="Experiencia"><option>Seria a primeira vez</option><option>Já palestrei algumas vezes</option><option>Palestro com frequência</option></select></div>
-          <label class="aceite"><input type="checkbox" name="Consentimento" value="Sim" required> Autorizo o uso destes dados para contato sobre a charla, conforme a LGPD. Eles não serão repassados a terceiros.</label>
+          <label class="aceite"><input type="checkbox" name="Consentimento" value="Sim" required> Autorizo o uso destes dados (e-mail e WhatsApp) para contato sobre a charla, conforme a LGPD. Eles não serão repassados a terceiros.</label>
           <input type="text" name="_honey" class="pote" tabindex="-1" autocomplete="off" aria-hidden="true">
           <button class="btn btn--caramelo" type="submit">Enviar proposta</button>
           <p class="form__msg" role="status" aria-live="polite"></p>
@@ -633,7 +634,7 @@
           <p class="form__d">Receba o media kit com valores e contrapartidas e converse com a organização.</p>
           <div class="campo"><label for="a-nome">Nome *</label><input id="a-nome" name="Nome" required autocomplete="name"></div>
           <div class="campo campo--meia"><label for="a-email">E-mail corporativo *</label><input id="a-email" name="email" type="email" required autocomplete="email"></div>
-          <div class="campo campo--meia"><label for="a-fone">WhatsApp</label><input id="a-fone" name="WhatsApp" type="tel" autocomplete="tel"></div>
+          <div class="campo campo--meia"><label for="a-fone">WhatsApp com DDD</label><input id="a-fone" name="WhatsApp" type="tel" autocomplete="tel" pattern="[\d\s\(\)\+\.\-]{10,20}" title="Número com DDD, ex.: (51) 99999-9999" placeholder="(51) 99999-9999"></div>
           <div class="campo campo--meia"><label for="a-empresa">Empresa ou instituição *</label><input id="a-empresa" name="Empresa" required autocomplete="organization"></div>
           <div class="campo campo--meia"><label for="a-cargo">Cargo</label><input id="a-cargo" name="Cargo" autocomplete="organization-title"></div>
           <fieldset class="campo"><legend>Interesse *</legend>
@@ -645,7 +646,7 @@
           </fieldset>
           <div class="campo"><label for="a-cidade">Cidades ou edições de interesse</label><input id="a-cidade" name="Cidades"></div>
           <div class="campo"><label for="a-msg">Mensagem</label><textarea id="a-msg" name="Mensagem" rows="3" maxlength="800"></textarea></div>
-          <label class="aceite"><input type="checkbox" name="Consentimento" value="Sim" required> Autorizo o uso destes dados para contato comercial sobre o Osint &amp; Cachaça, conforme a LGPD. Eles não serão repassados a terceiros.</label>
+          <label class="aceite"><input type="checkbox" name="Consentimento" value="Sim" required> Autorizo o uso destes dados (e-mail e WhatsApp, se informado) para contato comercial sobre o Osint &amp; Cachaça, conforme a LGPD. Eles não serão repassados a terceiros.</label>
           <input type="text" name="_honey" class="pote" tabindex="-1" autocomplete="off" aria-hidden="true">
           <button class="btn btn--ouro" type="submit">Quero receber o media kit</button>
           <p class="form__msg" role="status" aria-live="polite"></p>
